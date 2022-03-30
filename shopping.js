@@ -2,7 +2,7 @@ function discount()
 {
     var disc;
     var a=document.getElementById("amount").value;
-    if(a<1000){
+    if(a>0 && a<1000){
     document.write("You have not got any discount!!!");
     document.write("<br>");
     document.write("Total amount to be paid is:",a);
